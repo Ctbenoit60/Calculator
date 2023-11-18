@@ -20,7 +20,7 @@
     border-radius: 10px;
 }
 
-.calculator form input {
+.calculator form button {
     border: 0;
     outline: 0;
     width: 60px;
@@ -44,4 +44,8 @@ form .display input {
     flex: 1;
     font-size: 45px;
     box-shadow: none;
+}
+
+form button.equal {
+    width: 145px;
 }
