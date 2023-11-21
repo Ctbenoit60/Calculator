@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -20,7 +20,7 @@
     border-radius: 10px;
 }
 
-.calculator form button {
+.calculator button {
     border: 0;
     outline: 0;
     width: 60px;
@@ -34,18 +34,19 @@
     margin: 10px;
 }
 
-form .display {
+.display {
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
 }
-form .display input {
+
+.display input {
     text-align: right;
     flex: 1;
     font-size: 45px;
     box-shadow: none;
 }
 
-form button.equal {
+.input.equal {
     width: 145px;
 }
